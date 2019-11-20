@@ -1,43 +1,96 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>UX Portfolio | Abigail Hinton</title>
-  </head>
+<head>
+  <title>UX Portfolio | Abigail Hinton</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Material Design Lite -->
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-lime.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+  <!-- Font Awesome -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
   <body>
-    <header>
+    <header class="mdl-layout__header mdl-layout__header--transparent">
       <h1>Abigail Hinton</h1>
       <p class="slogan">Denver Design with Superheroes in Mind</p>
     </header>
-    <main>
-      <div class="project featured-project">
-         <img src="https://storage.googleapis.com/uxfolio/5d2a03f3d229f60004406395/5d2a041bd229f60004406396/fEiqWUTm830r7MIz.jpg" alt="project screenshot"/>
-         <h2>Busy Bus Case Study</h2>
-         <p>A Crowd Sourced Transit Tracker App</p>
-       </div>
-       <div class="project">
-         <img src="http://lorempixel.com/350/260/abstract/placeholder-2" alt="project screenshot"/>
-         <h2>CSS Exercise</h2>
-         <p>Exercise focused on the usage of media queries</p>
-       </div>
-       <div class="project">
-         <img src="http://lorempixel.com/350/260/abstract/placeholder-3" alt="project screenshot"/>
-         <h2> cooked.</h2>
-         <p>Application for Cloud Storage and Organization of Recipes</p>
-       </div>
-       <div class="project">
-         <img src="https://static1.squarespace.com/static/5aa6dab331d4dfc6a54c8807/t/5c97ef81e5e5f0b7775dbec6/1553520724640/?format=1500w" alt="project screenshot"/>
-         <h2>Chasing Colorado</h2>
-         <p>A Blog and Merch Mart for the Chasing Colorado Brand</p>
-       </div>
+    <main class="mdl-layout__content mdl-grid">
+      <div class="project featured-project mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
+        <div class="mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet">
+          <img src="https://storage.googleapis.com/uxfolio/5d2a03f3d229f60004406395/5d2a041bd229f60004406396/fEiqWUTm830r7MIz.jpg" alt="project screenshot"/>
+        </div
+        <div class="mdl-cell mdl-cell--7-col">
+          <h2 class="mdl-card__title-text">Busy Bus Case Study</h2>
+          <p class="project-description mdl-card__supporting-text">A Crowd Sourced Transit Tracker App</p>
+        </div>
+      </div>
+
+      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+        <div>
+          <img src="http://lorempixel.com/350/260/abstract/placeholder-2" alt="project screenshot"/>
+        </div>
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">CSS Exercise</h2>
+        </div>
+        <div class="mdl-card__supporting-text">Exercise focused on the usage of media queries</div>
+      </div>
+
+      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+        <div>
+          <img src="http://lorempixel.com/350/260/abstract/placeholder-2" alt="project screenshot"/>
+        </div>
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">cooked.</h2>
+        </div>
+        <div class="mdl-card__supporting-text">Application for Cloud Storage and Organization of Recipes</div>
+      </div>
+
+      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+        <div>
+          <img src="https://static1.squarespace.com/static/5aa6dab331d4dfc6a54c8807/t/5c97ef81e5e5f0b7775dbec6/1553520724640/?format=1500w" alt="project screenshot"/>
+        </div>
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Chasing Colorado</h2>
+        </div>
+        <div class="mdl-card__supporting-text">A Blog and Merch Mart for the Chasing Colorado Brand</div>
+      </div>
     </main>
-    <footer>
-    <ul>
-      <li> <a href="www.linkedin.com/in/abbiehinton">LinkedIn</a> </li>
-      <li> <a href="https://github.com/chasingwilddesigns">GitHub</a> </li>
-      <li> <a href="https://www.facebook.com/abbie.hinton.5">Facebook</a> </li>
-      <li> <a href="https://twitter.com/chasingwilddes">Twitter</a> </li>
-      <li> <a href="mailto:chasingwild.designs@gmail.com">Email</a> </li>
-    </ul>
+
+    <footer class="mdl-mini-footer">
+      <ul class="mdl-mini-footer__link-list">
+        <li>
+          <a href="www.linkedin.com/in/abbiehinton">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/chasingwilddesigns">
+            <i class="fa fa-github-square" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/abbie.hinton.5">
+             <i class="fa fa-facebook-square" aria-hidden="true"></i>
+           </a>
+         </li>
+        <li>
+          <a href="https://twitter.com/chasingwilddes">
+             <i class="fa fa-twitter-square" aria-hidden="true"></i>
+           </a>
+         </li>
+        <li>
+          <a href="mailto:chasingwild.designs@gmail.com">
+            <i class="fa fa-envelope-square" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
     </footer>
   </body>
+
 </html>
